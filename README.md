@@ -48,7 +48,7 @@
 
 O diagrama abaixo ilustra o fluxo de dados entre os componentes do hardware:
 
-```
+```mermaid
 graph TD
     subgraph Sensores
         AHT20[🌡️ AHT20<br/>Temp/Umid]
