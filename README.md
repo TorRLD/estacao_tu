@@ -1,8 +1,9 @@
+
 # Estação Meteorológica Inteligente ☁️
 
 **Estação Meteorológica com Pico W** é um firmware de monitoramento climático construído sobre a  **Raspberry Pi Pico W** . O projeto utiliza múltiplos sensores para coletar dados do ambiente e os exibe localmente em tempo real. Ele oferece:
 
-* **Coleta de Dados Precisa** com sensores AHT10 (temperatura e umidade) e BMP280 (pressão atmosférica e temperatura).
+* **Coleta de Dados Precisa** com sensores AHT10 (temperatura e umidade) e BMP280 (temperatura e pressão atmosférica).
 * **Visualização Instantânea** das leituras em um display OLED SSD1306.
 * **Feedback Visual com LED RGB** controlado via PIO (Programmable I/O) para indicar o status do sistema.
 * **Firmware Robusto em C/C++** utilizando o Pico SDK para performance e baixo consumo de energia.
